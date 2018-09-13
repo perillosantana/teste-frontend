@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang=”pt_BR”>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="/dist/main.css" />
 </head>
-<body>
-    <h1>{{ page_title }}</h1>
-    
-    <script src="/dist/main.js"></script>
+
+<body class="balance">
+    <header class="grid-container">
+        <div class="hide-for-small-only">
+            <div class="grid-x grid-margin-x">
+                <div class="cell medium-4 large-2">
+                    <div class="neon-logo">
+                        <a href="/">
+                            <img src="/src/images/neon-logo-02.png" alt="Neon">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cell medium-8 large-10">
+                    <h1 class="text-center neon-title">saldo <span>R$ {{ balance }}</span></h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="show-for-small-only">
+            <div class="grid-x grid-margin-x">
+                <div class="cell small-4">
+                    <div class="neon-logo">
+                        <a href="/">
+                            <img src="/src/images/neon-logo-01.png" alt="Neon" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cell small-8">
+                    <h1 class="text-center neon-title">saldo</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="grid-container">
+        <!-- <ul>
+                {% for item in financialHistory %}
+                <li>
+                    {{ item.year }}
+
+                    <ul>
+                        {% for history in item.history %}
+                        <p>{{ history.title }}</p>
+                        <p>{{ history.value }}</p>
+                        <p><img src="/src/images/{{ history.iconCategory }}" alt=""></p>
+                        <p>{{ history.status }}</p>
+                        {% else %}
+                        <li>Vazio :(</li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endfor %}
+            </ul> -->
+    </main>
+
+    <script type="text/javascript" src="/dist/main.js"></script>
 </body>
+
 </html>

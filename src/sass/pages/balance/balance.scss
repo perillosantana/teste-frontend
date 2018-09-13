@@ -1,0 +1,19 @@
+body.balance {
+    .neon-logo {
+        margin: 17px 0 0;
+        text-align: center;
+    }
+
+    .neon-title {
+        font-weight: bold;
+        margin: 15px 0 0;
+
+        @media screen and (min-width: 40em) {
+            margin: 10px 0 0;
+        }
+
+        span {
+            font-size: 2.1875rem;
+        }
+    }
+}

@@ -1,9 +1,12 @@
 let express = require('express')
 let nunjucks = require('nunjucks')
 let app = express()
+let data = require('./example.json');
 
 // Static files Setup
 app.use('/dist', express.static('dist'));
+app.use('/src', express.static('src'));
+
 
 // Templates Engine Setup
 app.set('view engine', 'njk')
@@ -13,9 +16,7 @@ nunjucks.configure('views', {
 
 // Routes
 app.use((req, res, next) => {
-    res.render('index', {
-        page_title: "Teste",
-    })
+    res.render('index', data)
 })
 
 // Setup port to listen on
