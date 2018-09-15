@@ -2,8 +2,9 @@
   "name": "teste-frontend",
   "version": "1.0.0",
   "description": "Test for FrontEnd vacancy",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app",
     "server": "nodemon app.js -e js,njk",
     "dev": "concurrently --kill-others \"nodemon app.js -e js,njk\" \"webpack --watch\" \"gulp watch\""
   },
