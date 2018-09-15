@@ -8,36 +8,42 @@
                     "title": "Sua compra aparece aqui",
                     "value": "1.000.000,00",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "normal"
                 },
                 {
                     "title": "Receba pagamentos",
                     "value": "2.000.000,00",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "positive"
                 },
                 {
                     "title": "Tarifa",
                     "value": "0,01",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "negative"
                 },
                 {
                     "title": "Tarifa",
                     "value": "0,01",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "negative"
                 },
                 {
                     "title": "Tarifa",
                     "value": "0,01",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "negative"
                 },
                 {
                     "title": "Tarifa",
                     "value": "0,01",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "negative"
                 }
             ]
@@ -49,36 +55,42 @@
                     "title": "Sua compra aparece aqui",
                     "value": "1.000.000,00",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "normal"
                 },
                 {
                     "title": "Receba pagamentos",
                     "value": "2.000.000,00",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "positive"
                 },
                 {
                     "title": "Tarifa",
                     "value": "0,01",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "negative"
                 },
                 {
                     "title": "Tarifa",
                     "value": "0,01",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "negative"
                 },
                 {
                     "title": "Tarifa",
                     "value": "0,01",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "negative"
                 },
                 {
                     "title": "Tarifa",
                     "value": "0,01",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "negative"
                 }
             ]
@@ -90,36 +102,136 @@
                     "title": "Sua compra aparece aqui",
                     "value": "1.000.000,00",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "normal"
                 },
                 {
                     "title": "Receba pagamentos",
                     "value": "2.000.000,00",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "positive"
                 },
                 {
                     "title": "Tarifa",
                     "value": "0,01",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "negative"
                 },
                 {
                     "title": "Tarifa",
                     "value": "0,01",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "negative"
                 },
                 {
                     "title": "Tarifa",
                     "value": "0,01",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "negative"
                 },
                 {
                     "title": "Tarifa",
                     "value": "0,01",
                     "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
+                    "status": "negative"
+                }
+            ]
+        },
+        {
+            "year": "2018",
+            "history": [
+                {
+                    "title": "Sua compra aparece aqui",
+                    "value": "1.000.000,00",
+                    "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
+                    "status": "normal"
+                },
+                {
+                    "title": "Receba pagamentos",
+                    "value": "2.000.000,00",
+                    "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
+                    "status": "positive"
+                },
+                {
+                    "title": "Tarifa",
+                    "value": "0,01",
+                    "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
+                    "status": "negative"
+                },
+                {
+                    "title": "Tarifa",
+                    "value": "0,01",
+                    "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
+                    "status": "negative"
+                },
+                {
+                    "title": "Tarifa",
+                    "value": "0,01",
+                    "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
+                    "status": "negative"
+                },
+                {
+                    "title": "Tarifa",
+                    "value": "0,01",
+                    "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
+                    "status": "negative"
+                }
+            ]
+        },
+        {
+            "year": "2018",
+            "history": [
+                {
+                    "title": "Sua compra aparece aqui",
+                    "value": "1.000.000,00",
+                    "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
+                    "status": "normal"
+                },
+                {
+                    "title": "Receba pagamentos",
+                    "value": "2.000.000,00",
+                    "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
+                    "status": "positive"
+                },
+                {
+                    "title": "Tarifa",
+                    "value": "0,01",
+                    "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
+                    "status": "negative"
+                },
+                {
+                    "title": "Tarifa",
+                    "value": "0,01",
+                    "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
+                    "status": "negative"
+                },
+                {
+                    "title": "Tarifa",
+                    "value": "0,01",
+                    "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
+                    "status": "negative"
+                },
+                {
+                    "title": "Tarifa",
+                    "value": "0,01",
+                    "iconCategory": "icon-categoria.png",
+                    "category": "categoria",
                     "status": "negative"
                 }
             ]

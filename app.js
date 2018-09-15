@@ -7,7 +7,6 @@ let data = require('./example.json');
 app.use('/dist', express.static('dist'));
 app.use('/src', express.static('src'));
 
-
 // Templates Engine Setup
 app.set('view engine', 'njk')
 nunjucks.configure('views', {
@@ -20,5 +19,11 @@ app.use((req, res, next) => {
 })
 
 // Setup port to listen on
-app.listen(3000)
-console.log(`Running on: http://localhost:3000/`);
+let port = process.env.PORT || 3000
+app.listen(port, () => {
+    if (process.env.PORT) {
+        console.log('Umbler listening on port %s', port);
+    } else {
+        console.log(`Running on: http://localhost:${port}/`)
+    }
+});
