@@ -1,10 +1,24 @@
-import anime from 'animejs'
-import slider from './slider.js';
+import Slider from './slider.js';
 
-anime({
-    targets: 'ul',
-    translateX: 250
+// Call Slider
+Slider();
+
+// Call Slider Window Resize
+window.onresize = (() => {
+    Slider(); 
 });
 
-let val = slider();
-console.log(val);
+// Click Remove Item
+document.querySelectorAll('.neon-slider-history-btn-remove').forEach(function (btnRemove) {
+    btnRemove.addEventListener("click", function () {
+        let $li = this.parentNode.parentNode.parentNode.parentNode.parentNode;
+        let $ul = this.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode;
+        let wrapper = this.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode;
+        
+        $li.classList.add('removed');
+        
+        if ($ul.querySelectorAll('li:not(.removed)').length === 0) {
+            wrapper.classList.add('empty');
+        }
+    });
+});
