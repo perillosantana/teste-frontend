@@ -15,6 +15,7 @@ body.balance {
             font-weight: bold;
             margin: 15px 0 0;
             text-align: left;
+            color: #fff;
 
             @media screen and (min-width: 768px) {
                 margin: 10px 0 0;
@@ -60,6 +61,7 @@ body.balance {
                         -webkit-transition: all .2s ease-in-out;
                         transition: all .2s ease-in-out;
                         opacity: 0;
+                        color: #fff;
 
                         &:after {
                             content: "";
@@ -86,6 +88,7 @@ body.balance {
                         margin-bottom: 5px;
                         transition: all .2s ease-in-out;
                         opacity: 0;
+                        color: #fff;
                     }
 
                     .neon-slider-history {
@@ -144,6 +147,7 @@ body.balance {
                             text-align: left;
                             margin: 0;
                             line-height: 1.4;
+                            color: #fff;
                         }
 
                         .neon-slider-history-title {
