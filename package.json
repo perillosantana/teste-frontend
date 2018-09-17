@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app",
     "server": "nodemon app.js -e js,njk",
-    "dev": "concurrently --kill-others \"nodemon app.js -e js,njk\" \"webpack --watch\" \"gulp watch\""
+    "dev": "concurrently --kill-others \"webpack --watch\" \"gulp watch\" \"nodemon app.js -e js,njk\""
   },
   "repository": {
     "type": "git",
