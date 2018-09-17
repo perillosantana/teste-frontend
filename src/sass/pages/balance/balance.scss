@@ -39,7 +39,7 @@ body.balance {
             .neon-slider-items {
                 -webkit-transition: all .5s ease-in-out;
                 transition: all .5s ease-in-out;
-                max-height: 440px;
+                min-width: 1024px;
                 overflow: hidden;
 
                 > li {
@@ -91,6 +91,9 @@ body.balance {
                         color: #fff;
                     }
 
+                    $min-height-desktop: 359px;
+                    $min-height-mobile: 332px;
+
                     .neon-slider-history {
                         position: relative;
                         overflow: hidden;
@@ -98,7 +101,12 @@ body.balance {
                         -webkit-transition: all .2s ease-in-out;
                         transition: all .2s ease-in-out;
                         background: #34a7de;
-                        min-height: 359px;
+                        min-height: $min-height-desktop;
+
+                        @media screen and (max-width: 768px) {
+                            padding: 0 5px;
+                            min-height: $min-height-mobile;
+                        }
 
                         .neon-slider-history-inactive {
                             &:before {
@@ -135,10 +143,15 @@ body.balance {
                         }
 
                         > ul {
-                            min-height: 359px;
+                            min-height: $min-height-desktop;
                             max-height: 380px;
                             overflow-y: auto;
                             overflow-x: hidden;
+
+                            @media screen and (max-width: 768px) {
+                                min-height: $min-height-mobile;
+                                max-height: $min-height-mobile;
+                            }
                         }
 
                         .neon-slider-history-title,
